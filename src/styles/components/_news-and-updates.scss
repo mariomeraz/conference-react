@@ -1,0 +1,45 @@
+@import "../partials/variables";
+
+.b-news {
+  margin: 20px 0;
+
+  &__title {
+    font-size: 1.5em;
+
+  }
+
+  &__date {
+    background: $blue;
+    color: white;
+    text-align: center;
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+    border-top: 10px solid darken($blue, 10%);
+  }
+
+  &__day {
+    display: block;
+    font-size: 2.5em;
+  }
+
+  &__month {
+    display: block;
+    text-transform: uppercase;
+  }
+
+  &__year {
+    display: block;
+  }
+
+  &__place {
+    color: lighten($dark-gray, 15%);
+    letter-spacing: 1px;
+  }
+
+  &__summary {
+    font-size: 0.8em;
+    margin-top: 10px;
+    color: lighten($dark-gray, 5%);
+  }
+}

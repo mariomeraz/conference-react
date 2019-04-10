@@ -1,0 +1,13 @@
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+
+  &:hover {
+    color: white;
+  }
+}
+
+.btn {
+  padding: 0.5rem 2rem;
+  border-radius: 2rem;
+}

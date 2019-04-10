@@ -1,0 +1,23 @@
+.b-hero {
+  position: relative;
+
+  &__text {
+    font-size: 3em;
+    text-align: center;
+    bottom: 0;
+    background: black;
+    opacity: 0.8;
+    width: 100%;
+
+    &-top {
+      text-transform: uppercase;
+      display: block;
+    }
+
+    &-bottom {
+      display: block;
+    }
+  }
+
+
+}
