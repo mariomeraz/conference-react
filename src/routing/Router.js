@@ -5,7 +5,7 @@ import ProgramAgenda from "../components/Program/ProgramAgenda";
 import Header from "../components/Common/Header/Header";
 import ProgramTalkDetail from "../components/Program/ProgramTalkDetail";
 import NoFound from "../components/Common/NoFound/NoFound";
-import SponsorsRouter from "../components/Sponsors/SponsorsRouter";
+import SponsorsIndex from "../components/Sponsors/SponsorsIndex";
 
 const Router = () => {
     const title = "Title Dynamic";
@@ -16,7 +16,7 @@ const Router = () => {
               <Route exact path="/" component={HomeIndex} />
               <Route exact path="/program" component={ProgramAgenda} />
               <Route path="/program/:slug" component={ProgramTalkDetail} />
-               <Route path="/sponsors" component={SponsorsRouter}/>
+               <Route path="/sponsors" component={SponsorsIndex}/>
               <Route component={NoFound} />
             </Switch>
         </div>

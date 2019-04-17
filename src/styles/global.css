@@ -7130,6 +7130,41 @@ a {
 .b-schedule-item-body {
   padding: 20px; }
 
+.b-sponsor-item {
+  margin: 20px 0;
+  border-radius: 5px;
+  text-align: left;
+  -webkit-box-shadow: 0 15px 35px rgba(50, 50, 93, 0.03), 0 5px 15px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 15px 35px rgba(50, 50, 93, 0.03), 0 5px 15px rgba(0, 0, 0, 0.06); }
+  .b-sponsor-item__type {
+    font-size: 1.5em;
+    margin: 5px 0; }
+  .b-sponsor-item__description {
+    font-size: 0.9em;
+    margin-top: 10px;
+    color: #626262; }
+  .b-sponsor-item__thumbnail {
+    padding: 15px; }
+    .b-sponsor-item__thumbnail--odd {
+      background: #444; }
+    .b-sponsor-item__thumbnail--even {
+      background: #efefef; }
+
+.b-sponsor-item-header__name {
+  background: #5862ec;
+  color: white;
+  text-align: center;
+  width: 100%;
+  padding: 10px 0;
+  border-top: 10px solid #2a37e7; }
+
+.b-sponsor-item-header__name-label {
+  display: block;
+  font-size: 1.5em; }
+
+.b-sponsor-item-body {
+  padding: 20px; }
+
 .b-talk__place {
   letter-spacing: 1px;
   font-size: 0.7em; }

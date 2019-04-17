@@ -1,0 +1,55 @@
+@import "../partials/variables";
+
+.b-sponsor-item {
+  margin: 20px 0;
+  border-radius: 5px;
+  text-align: left;
+  -webkit-box-shadow: 0 15px 35px rgba(50, 50, 93, .03), 0 5px 15px rgba(0, 0, 0, .06);
+  box-shadow: 0 15px 35px rgba(50, 50, 93, .03), 0 5px 15px rgba(0, 0, 0, .06);
+
+  &__type {
+    font-size: 1.5em;
+    margin: 5px 0;
+  }
+
+  &__description {
+    font-size: 0.9em;
+    margin-top: 10px;
+    color: lighten($dark-gray, 5%);
+  }
+
+  &__thumbnail {
+    padding: 15px;
+
+    &--odd {
+      background: #444;
+    }
+
+    &--even {
+      background: #efefef;
+
+    }
+  }
+}
+
+.b-sponsor-item-header {
+
+  &__name {
+    background: $blue;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+    border-top: 10px solid darken($blue, 10%);
+  }
+
+  &__name-label {
+    display: block;
+    font-size: 1.5em;
+  }
+}
+
+.b-sponsor-item-body {
+  padding: 20px;
+
+}
